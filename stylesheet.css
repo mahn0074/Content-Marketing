@@ -2,9 +2,20 @@ img{
     width: 100%;
 }
 
-h2,h3,p{
+h4,h3{
+     font-family:'Moon 2.0 Regular';
+      color: #dee0d7;
+}
+
+
+p{
+    font-family: 'Chivo', sans-serif;
     color: #dee0d7;
 }
 .border{
     color: #1f474f;
 }
+html {
+  font-size: 0.9rem;
+}
+
