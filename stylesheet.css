@@ -12,9 +12,6 @@ p{
     font-family: 'Chivo', sans-serif;
     color: #dee0d7;
 }
-.border{
-    color: #1f474f;
-}
 
 html{
 	font-size: calc(1rem + 1vw);
