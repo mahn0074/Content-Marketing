@@ -17,12 +17,17 @@
 
 <body>
 
-    <main class="container-fluid" style="background-color:#001310">
+    <main class="main" style="background-color:#001310">
 
         <!-- Navigation bar -->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand text-light" href="#">Yogitea</a>
+                 <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
                 <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -46,110 +51,146 @@
         </nav>
 
         <!--------header------->
-<div class="row">
-        <div class="col-12 ">
-            <img src="img/header1.png" class="img-fluid max-width: 100%" alt="Responsive image">
+        <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-12 ">
+                <img src="img/header1.png" class="img-fluid max-width: 100%" alt="Responsive image">
+            </div>
         </div>
-</div>
+        </div>
         <!--------container------->
         <!--------inhold------->
-
+<div class="container">
         <div class="row border border-light my-3">
             <div class="col-12">
                 <h3>Do what feels good</h3>
 
-                <p>Drik en styrkende kop Yogitea, hvad enten du har brug for et break i hverdagen, eller energi og varme til at fortsætte din vandren.   <br>Gør de ting der får dig til at have det godt - tage ud og opleve, gå ud i naturen, træk vejret dybt, mærk elementerne, find din ro. </p>
+                <p>Drik en styrkende kop Yogitea, hvad enten du har brug for et break i hverdagen, eller energi og varme til at fortsætte din vandren. <br>Gør de ting der får dig til at have det godt - tage ud og opleve, gå ud i naturen, træk vejret dybt, mærk elementerne, find din ro. </p>
 
             </div>
         </div>
+        </div>
 
         <!--------animation------->
- <div class="container-fluid">
-     <div class="row col-12 my-3">
-         <img src="img/yogi_animation.gif" style="width:804px;height:410px" alt="Responsive">
-     </div>
+        <div class="container">
+            <div class="row d-md-none col-sm-12 my-3">
+                <img src="img/anim_m.gif" style="width:375px;height:191px" alt="Responsive">
+            </div>
+            <div class="row d-none d-sm-block col-md-2 my-3">
+                <img src="img/yogi_animation.gif" style="width:804px;height:410px" alt="Responsive">
+            </div>
         </div>
 
 
         <!--------SoMe------->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12  mt-2  col-sm-6">
-                    <img src="img/tB.png" class="img-fluid float-left" alt="Responsive image">
-                </div>
-                <div class="col-12 mt-2 col-sm-6">
-                    <img src="img/dWfG.png" class="img-fluid float-right" alt="Responsive image">
-                </div>
+<div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 
-                <div class="col border my-3">
-                    <h3>Take Break</h3>
-                    <p>Yogitea får dig til at føle dig godt, med styrkende og varmende ingredienser, som ingefær, gurkemeje, kakao og chili.
-                    <br>Yogitea bringer naturen til dig, og giver dig styrken til at fortsætte.</p>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/tB.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/dWfG.png" alt="Second slide">
                 </div>
 
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="col border my-3">
+            <h3>Take Break</h3>
+            <p>Yogitea får dig til at føle dig godt, med styrkende og varmende ingredienser, som ingefær, gurkemeje, kakao og chili.
+                <br>Yogitea bringer naturen til dig, og giver dig styrken til at fortsætte.</p>
         </div>
 
+ </div>
 
         <!--------infografik------->
+        <div class="container">
         <div class="row">
-         <div class="col-12">
-            <img src="img/infografik.png" class="img-fluid" alt="Responsive image">
+            <div class="col-12">
+                <img src="img/infografik.png" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-12 border my-3">
+                <h3>Find den smag der passer for dig!</h3>
+                <p>Vælg blandt Yogiteas mange smagsvariationer. <br> Køb Yogitea her!
+
+                    <button type="button" class="btn btn-outline-light btn-sm">Køb</button>
+                </p>
+            </div>
         </div>
-        <div class="col-12 border my-3">
-                    <h3>Find den smag der passer for dig!</h3>
-                    <p>Vælg blandt Yogiteas mange smagsvariationer.   <br> Køb Yogitea her!
-                    </p>
-                </div>
-        </div>
+         </div>
 
 
         <!--------Facebookevent------->
+        <div class="container">
         <div class="row">
             <div class="col-12">
-            <img src="img/fb.png" class="img-fluid" alt="Responsive image">
-        </div>
+                <img src="img/Int_fb-xs.png" class="img-fluid" alt="Responsive image">
+            </div>
             <div class="col-12 text border border-light my-3">
                 <h3>Yogitea tasting</h3>
                 <h4>Internationale te dag 15 December!</h4>
                 <p>Tag et break i julegavehandelen - kom til Yogitea tasting! Tilmeld dig Facebook eventet HER.<br>
 
-                   I forbindelse med den internationale te-dag den 15. December, vil Yogitea sætte fokus på de indiske tearbejdernes vilkår med et gratis Yogitea tasting event.
+                    I forbindelse med den internationale te-dag den 15. December, vil Yogitea sætte fokus på de indiske tearbejdernes vilkår med et gratis Yogitea tasting event.
 
-Der vil være mulgihed for at købe et udvalg af vores teer. 20% af salget denne dag går ubeskåret til National Health Mission of India’s mobile medical units, som yder medicinsk hjælp til tearbejderne.
+                    Der vil være mulgihed for at købe et udvalg af vores teer. 20% af salget denne dag går ubeskåret til National Health Mission of India’s mobile medical units, som yder medicinsk hjælp til tearbejderne.
 
 
                 </p>
             </div>
- <!--------instagram event------->
-            <div class="col-12">
-            <img src="img/insta.png" class="img-fluid" alt="Responsive image">
-        </div>
-            <div class="col-12 text border border-light my-3">
-                <h3>#yogiteabreak</h3>
-                <h4> Tag en pause fra hverdagen, og styrk dig med en kop Yogitea.</h4>
-                <p>Del hvordan du tager et break fra hverdagen under #yogiteabreak på Instagram, og vind et års forbrug af Yogitea.
+             </div>
 
-                </p>
+            <!--------instagram event------->
+            <div class="container">
+                <div class="row justify-content-md-center">
+                     <div class="col-12 col-sm-6 mt-2">
+                        <img src="img/insta-xx.png" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-12 col-sm-6 text border border-light my-3">
+                        <h3>#yogiteabreak</h3>
+                        <h4> Tag en pause fra hverdagen, og styrk dig med en kop Yogitea.</h4>
+                        <p>Del hvordan du tager et break fra hverdagen under #yogiteabreak på Instagram, og vind et års forbrug af Yogitea.
+
+                        </p>
+                    </div>
+                </div>
             </div>
 
         </div>
 
         <!--------footer------->
+
         <footer class="text-light" style="background-color: #1f474f">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h4>Om</h4>
-                        <p>Om tekst... </p>
+            <div class="container p-4">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <h4>Læs mere om Yogitea</h4>
+                        <p> www.yogitea.com
+                            <link herf="https://www.yogitea.com/en/">
+                        </p>
+
                     </div>
-                    <div class="col-md-4">
-                        <h4>Kontakt</h4>
-                        <p>Kontakt info her </p>
-                    </div>
-                    <div class="col-md-4">
-                        <h4>SoMe</h4>
-                        <p>SoMe buttons... </p>
+
+                    <div class="row align-items-end">
+                        <div class="col">
+                            <img src="img/insta_Logo.png" class="img p-2" alt="Responsive image" style="width: 20%">
+                            <img src="img/fb_logo.png" class="img p-2" alt="Responsive image" style="width: 20%">
+                            <p> </p>
+                        </div>
                     </div>
                 </div>
             </div>
