@@ -3,7 +3,7 @@ img{
 }
 
 h4,h3{
-     font-family:'Moon 2.0 Regular';
+     font-family: 'Chivo', sans-serif;
       color: #dee0d7;
 }
 
@@ -19,19 +19,3 @@ html {
   font-size: 0.9rem;
 }
 
-/*
-.visible {
-  visibility: visible;
-}
-.invisible {
-  visibility: hidden;
-}
-
-
-.element {
-  @include invisible(visible);
-}
-.element {
-  @include invisible(hidden);
-}
-*/
