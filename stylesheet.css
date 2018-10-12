@@ -44,4 +44,12 @@ html{
 		font-size: calc(0.7rem + 0.7vw);
 	}
 }
+.card{
+    background-color: #dee0d7;
+}
+.btn-outline-light:hover{
+    color: #001310;
+    background-color: #da6a36;
+
+}
 
